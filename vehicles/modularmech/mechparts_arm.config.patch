@@ -1,0 +1,224 @@
+[
+  {
+    "op": "add",
+    "path": "/mmma_arm_stonesword",
+    "value": {
+      "stats": {
+        "power": 9001,
+        "energy": 6
+      },
+      "partParameters": {
+        "script": "/vehicles/modularmech/armscripts/mmma_meleearm.lua",
+        "armClass": "MeleeArm",
+        "rotationLimits": [
+          0,
+          2
+        ],
+        "fireOffset": [
+          3.5,
+          0.5
+        ],
+        "windupTime": 0.3,
+        "windupAngle": 0.8,
+        "swingTime": 0.08,
+        "fireTime": 0.3,
+        "fireAngle": -0.8,
+        "comboFireAngle": 0.8,
+        "cooldownTime": 0.35,
+        "cooldownAngle": -0.3,
+        "projectileType": "mechbladeswoosh",
+        "projectileParameters": {
+          "power": 250,
+          "knockback": 30
+        },
+        "projectileTrackSource": true,
+        "projectileBaseDistance": 12,
+        "projectileTimeToLive": 0.3,
+        "frontPartImages": {
+          "<armName>": "arm/mmma_arm_stonesword_front.png",
+          "<armName>Fullbright": "arm/mmma_fullbright_none.png"
+        },
+        "backPartImages": {
+          "<armName>": "arm/mmma_arm_stonesword_back.png",
+          "<armName>Fullbright": "arm/mmma_fullbright_none.png"
+        }
+      },
+      "partImages": {
+        "<armName>": "arm/mmma_arm_stonesword_front.png",
+        "<armName>Fullbright": "arm/mmma_fullbright_none.png"
+      },
+      "defaultPrimaryColors": [
+        "f4988c",
+        "d93a3a",
+        "932625",
+        "601119"
+      ],
+      "defaultSecondaryColors": [
+        "838383",
+        "555555",
+        "383838",
+        "151515"
+      ],
+      "animationCustom": {
+        "animatedParts": {
+          "stateTypes": {
+            "<armName>": {
+              "states": {
+                "windup": {
+                  "properties": {
+                    "persistentSound": "/sfx/melee/mech_energysword_windup2.ogg",
+                    "persistentSoundRangeMultiplier": 1,
+                    "persistentSoundStopTime": 0.2
+                  }
+                },
+                "winddown": {
+                  "properties": {
+                    "persistentSound": "/sfx/melee/mech_energysword_winddown1.ogg",
+                    "persistentSoundRangeMultiplier": 1,
+                    "persistentSoundStopTime": 0.2
+                  }
+                }
+              }
+            }
+          },
+          "parts": {
+            "<armName>_no": {
+              "properties": {
+                "zLevel": 10,
+                "fullbright": true,
+                "centered": false,
+                "transformationGroups": [
+                  "<armName>"
+                ]
+              }
+            }
+          }
+        },
+        "sounds": {
+          "<armName>Fire": [
+            "/sfx/melee/mech_energysword_swing1.ogg",
+            "/sfx/melee/mech_energysword_swing2.ogg",
+            "/sfx/melee/mech_energysword_swing3.ogg",
+            "/sfx/melee/mech_energysword_swing4.ogg"
+          ]
+        },
+        "transformationGroups": {
+          "<armName>": {
+            "interpolated": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/mmma_arm_kluexstaff",
+    "value": {
+      "stats": {
+        "power": 9001,
+        "energy": 6
+      },
+      "partParameters": {
+        "script": "/vehicles/modularmech/armscripts/mmma_meleearm.lua",
+        "armClass": "MeleeArm",
+        "rotationLimits": [
+          0,
+          2
+        ],
+        "fireOffset": [
+          3.5,
+          0.5
+        ],
+        "windupTime": 0.3,
+        "windupAngle": 0.8,
+        "swingTime": 0.08,
+        "fireTime": 0.3,
+        "fireAngle": -0.8,
+        "comboFireAngle": 0.8,
+        "cooldownTime": 0.35,
+        "cooldownAngle": -0.3,
+        "projectileType": "mechbladeswoosh",
+        "projectileParameters": {
+          "power": 250,
+          "knockback": 30
+        },
+        "projectileTrackSource": true,
+        "projectileBaseDistance": 12,
+        "projectileTimeToLive": 0.3,
+        "frontPartImages": {
+          "<armName>": "arm/mmma_arm_kluexstaff_front.png",
+          "<armName>Fullbright": "arm/mmma_fullbright_none.png"
+        },
+        "backPartImages": {
+          "<armName>": "arm/mmma_arm_kluexstaff_back.png",
+          "<armName>Fullbright": "arm/mmma_fullbright_none.png"
+        }
+      },
+      "partImages": {
+        "<armName>": "arm/mmma_arm_kluexstaff_front.png",
+        "<armName>Fullbright": "arm/mmma_fullbright_none.png"
+      },
+      "defaultPrimaryColors": [
+        "f4988c",
+        "d93a3a",
+        "932625",
+        "601119"
+      ],
+      "defaultSecondaryColors": [
+        "838383",
+        "555555",
+        "383838",
+        "151515"
+      ],
+      "animationCustom": {
+        "animatedParts": {
+          "stateTypes": {
+            "<armName>": {
+              "states": {
+                "windup": {
+                  "properties": {
+                    "persistentSound": "/sfx/melee/mech_energysword_windup2.ogg",
+                    "persistentSoundRangeMultiplier": 1,
+                    "persistentSoundStopTime": 0.2
+                  }
+                },
+                "winddown": {
+                  "properties": {
+                    "persistentSound": "/sfx/melee/mech_energysword_winddown1.ogg",
+                    "persistentSoundRangeMultiplier": 1,
+                    "persistentSoundStopTime": 0.2
+                  }
+                }
+              }
+            }
+          },
+          "parts": {
+            "<armName>_no": {
+              "properties": {
+                "zLevel": 10,
+                "fullbright": true,
+                "centered": false,
+                "transformationGroups": [
+                  "<armName>"
+                ]
+              }
+            }
+          }
+        },
+        "sounds": {
+          "<armName>Fire": [
+            "/sfx/melee/mech_energysword_swing1.ogg",
+            "/sfx/melee/mech_energysword_swing2.ogg",
+            "/sfx/melee/mech_energysword_swing3.ogg",
+            "/sfx/melee/mech_energysword_swing4.ogg"
+          ]
+        },
+        "transformationGroups": {
+          "<armName>": {
+            "interpolated": false
+          }
+        }
+      }
+    }
+  }
+]

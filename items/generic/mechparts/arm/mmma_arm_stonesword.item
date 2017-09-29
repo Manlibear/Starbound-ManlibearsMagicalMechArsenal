@@ -1,0 +1,17 @@
+{
+  "itemName": "mmma_arm_stonesword",
+  "price": 5600,
+  "maxStack": 1,
+  "rarity": "Rare",
+  "category": "mechPart",
+  "tooltipKind": "mecharm",
+  "builder": "/items/buildscripts/buildmmmamechpart.lua",
+  "inventoryIcon": "mmma_arm_stonesword.png",
+  "description": "A hefty sword make of stone",
+  "shortdescription": "Stone Sword Mech Arm",
+  "itemTags": [],
+  "mechPart": [
+    "arm",
+    "mmma_arm_stonesword"
+  ]
+}

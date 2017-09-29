@@ -1,0 +1,25 @@
+{
+  "input": [
+    {
+      "item": "kluexstaff",
+      "count": 1
+    },
+    {
+      "item": "salvagearm",
+      "count": 50
+    },
+    {
+      "item": "salvagetier6",
+      "count": 25
+    }
+  ],
+  "duration": 5,
+  "output": {
+    "item": "mmma_arm_kluexstaff",
+    "count": 1
+  },
+  "groups": [
+    "craftingmech",
+    "mecharm"
+  ]
+}
