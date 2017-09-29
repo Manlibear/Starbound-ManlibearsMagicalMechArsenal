@@ -1,12 +1,8 @@
 {
   "input": [
     {
-      "item": "darkwoodmaterial",
-      "count": 10
-    },
-    {
-      "item": "goldbar",
-      "count": 10
+      "item": "stoneblade",
+      "count": 1
     },
     {
       "item": "salvagearm",
@@ -19,7 +15,7 @@
   ],
   "duration": 5,
   "output": {
-    "item": "mmma_arm_shield1",
+    "item": "mmma_arm_stonesword",
     "count": 1
   },
   "groups": [

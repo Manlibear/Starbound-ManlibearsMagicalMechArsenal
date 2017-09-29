@@ -1,0 +1,14 @@
+{
+  "projectileName": "mmma_arrow",
+  "image": "mmma_arrow.png",
+  "physics": "bullet",
+  "animationCycle": 0.25,
+  "frameNumber": 1,
+  "damageKind": "standardbullet",
+  "fullbright": false,
+  "flippable": true,
+  "statusEffects": [],
+  "power": 5,
+  "speed": 70,
+  "knockback": 15
+}

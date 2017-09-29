@@ -1,0 +1,17 @@
+{
+  "itemName": "mmma_arm_shield1",
+  "price": 5600,
+  "maxStack": 1,
+  "rarity": "Rare",
+  "category": "mechPart",
+  "tooltipKind": "mecharm",
+  "builder": "/items/buildscripts/buildmmmamechpart.lua",
+  "inventoryIcon": "mmma_arm_shield1.png",
+  "description": "A large sheild made of gold, pricey AND impractical!",
+  "shortdescription": "Gold Mech Shield",
+  "itemTags": [],
+  "mechPart": [
+    "arm",
+    "mmma_arm_shield1"
+  ]
+}
