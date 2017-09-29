@@ -1,12 +1,16 @@
 {
   "input": [
     {
-      "item": "darkwoodmaterial",
-      "count": 10
+      "item": "climbingrope",
+      "count": 1
     },
     {
-      "item": "goldbar",
-      "count": 10
+      "item": "tungstenbar",
+      "count": 5
+    },
+    {
+      "item": "silverbar",
+      "count": 1
     },
     {
       "item": "salvagearm",
@@ -19,7 +23,7 @@
   ],
   "duration": 5,
   "output": {
-    "item": "mmma_arm_shield1",
+    "item": "mmma_arm_spear1",
     "count": 1
   },
   "groups": [

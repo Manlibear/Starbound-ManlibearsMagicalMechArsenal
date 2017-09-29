@@ -1,0 +1,17 @@
+{
+  "itemName": "mmma_arm_spear1",
+  "price": 5600,
+  "maxStack": 1,
+  "rarity": "Rare",
+  "category": "mechPart",
+  "tooltipKind": "mecharm",
+  "builder": "/items/buildscripts/buildmmmamechpart.lua",
+  "inventoryIcon": "mmma_arm_spear1.png",
+  "description": "A strong spear, perfect spearing space stuff!",
+  "shortdescription": "Spear Mech Arm",
+  "itemTags": [],
+  "mechPart": [
+    "arm",
+    "mmma_arm_spear1"
+  ]
+}

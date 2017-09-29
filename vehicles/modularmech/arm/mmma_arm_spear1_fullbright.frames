@@ -1,0 +1,42 @@
+{
+  "frameGrid": {
+    "size": [
+      96,
+      96
+    ],
+    "dimensions": [
+      6,
+      1
+    ],
+    "names": [
+      [
+        "idle",
+        "thrust1",
+        "thrust2",
+        "thrust3",
+        "rectract1",
+        "rectract2"
+      ]
+    ]
+  },
+  "aliases": {
+    "winddown.1": "rectract1",
+    "winddown.2": "rectract1",
+    "winddown.3": "rectract2",
+    "winddown.4": "rectract2",
+    "active.1": "thrust1",
+    "active.2": "thrust2",
+    "active.3": "thrust2",
+    "active.4": "thrust3",
+    "cooldown": "idle",
+    "rotate": "idle",
+    "recover.1": "rectract1",
+    "recover.2": "rectract2",
+    "recover.3": "rectract2",
+    "windup.1": "thrust1",
+    "windup.2": "thrust2",
+    "windup.3": "thrust2",
+    "windup.4": "thrust3",
+    "assemblyview": "idle"
+  }
+}
